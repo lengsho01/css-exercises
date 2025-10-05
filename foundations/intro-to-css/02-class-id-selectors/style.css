@@ -1,1 +1,24 @@
 /* Add CSS Styling */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    background-color: rgb(224, 158, 105);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+#main{
+    font-size: 36px;
+    color: blue;
+}
+
+.main .subsuction{
+    font-size: 24px;
+}
+
+#main .subsuction{
+    background-color: rgb(98, 238, 98);
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
