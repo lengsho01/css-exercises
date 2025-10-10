@@ -26,4 +26,47 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+
+}
+/* solution */
+
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  font-size: 24px;
+  font-weight: 900;
+}
+.sidebar-wrapper{
+  flex: 1;
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+
+.sidebar {
+flex-shrink: 0;
+padding: 16px;
+}
+.card{
+  width: 220px;
+
+}
+.card-wrapper {
+display: flex;
+flex-wrap: wrap;
+padding: 48px;
+gap: 32px;
+}
+
+.footer {
+display: flex;
+align-items: center;
+justify-content: center;
 }
